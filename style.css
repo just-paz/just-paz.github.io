@@ -1,3 +1,57 @@
 li{
     font-size:24px;
-}  
+} 
+li > a {
+    color:#e7d231;
+    font-size:25px;
+}
+
+h2 > a {
+    color:inherit ;
+}
+
+#featured h2 {
+    font-style:italic;
+    color:#fffd9e;
+}
+
+
+
+/* Add your rules ABOVE this line */
+
+/*Basic Page Styles */
+
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwmX2_dzrHvBlF15CmlyItaPCJKUHbVv8JA&s");
+    background-size:cover;
+    color:white;
+    text-align:center;
+}
+
+
+h2{
+    font-weight:bolder;
+}
+
+ul{
+    list-style:none;
+}
+
+h1{
+    color:lightyellow;
+}
+
+#featured{
+    border:7px dotted #fffd9e;
+}
+
+nav{
+    float:left;
+    border:7px outset white;
+    width:25%;
+}
+
+main{
+    float:right;
+    width:70%;
+}
