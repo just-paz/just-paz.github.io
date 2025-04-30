@@ -22,7 +22,7 @@ h2 > a {
 /*Basic Page Styles */
 
 body{
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwmX2_dzrHvBlF15CmlyItaPCJKUHbVv8JA&s");
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
     background-size:cover;
     color:white;
     text-align:center;
