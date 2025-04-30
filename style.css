@@ -55,3 +55,16 @@ main{
     float:right;
     width:70%;
 }
+
+.header{
+    border-style: dashed;
+    text-align: center;
+    background-color:white;
+    color:black;
+}
+
+.header-text {
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+}
