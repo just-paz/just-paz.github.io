@@ -68,3 +68,12 @@ main{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:italic;
 }
+  p{
+     list-style:square;    
+    } 
+     p:hover{background-color:PaleGoldenRod;
+	   }     
+        p:active::after{    
+          background-color: #46c70b;    
+          content: " You have made a good decision"; 
+            }
