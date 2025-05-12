@@ -1,0 +1,6 @@
+paulines store
+
+boxes with different items inside them
+footer with pauline information
+build a nav bar with links to other pages
+build other pages
