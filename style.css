@@ -56,3 +56,16 @@ caption{
   img.blur {
     filter: blur(3px);
 }
+img.filtered-image {
+    animation: sepiaFilter 2s forwards;
+}
+
+@keyframes sepiaFilter {
+    from {
+        filter: sepia(0%);
+    }
+    
+    to {
+        filter: sepia(100%);
+    }
+}
