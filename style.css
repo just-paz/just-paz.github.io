@@ -69,3 +69,22 @@ img.filtered-image {
         filter: sepia(100%);
     }
 }
+
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.click-here:hover{
+    background-color:#002ead;
+      transition: 0.7s;
+}
+.click-here:active {
+    background-color:#002ead;
+    transition: 0.7s
+}
