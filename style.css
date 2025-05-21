@@ -13,7 +13,7 @@ body{
 }
 
 @keyframes twinkle {
-    0% { opacity: 0.8; }
+    0% { opacity: 0.2; }
     100% { opacity: 1; }
 }
 
@@ -40,4 +40,19 @@ body{
 }
 p {
     margin: 8px;
+}
+caption{
+    visibility: collapse;
+    border:4px solid black;
+  }
+  
+  table {
+    border: 1px solid red;
+  }
+  
+  td {
+    border: 1px solid gray;
+  }
+  img.blur {
+    filter: blur(3px);
 }
